@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(246, 119, 161);
+}
+.container{
+    border: 1px solid black;
+    width: 900px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: rgb(20, 14, 64);
+    color: white;
+
+}
+.header{
+    display: flex;
+}
+.header img {
+    width: 40px;
+    height: 40px;
+    margin: 30px 0 10px 80px;
+    border-radius: 50%;
+}
+.header ul{
+    margin: 40px  140px;
+    display: flex;    
+}
+.header li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.header li a{
+    text-decoration: none;
+    color: white;
+}
+.header li a:hover{
+    text-decoration: overline;
+    color: rgb(246, 119, 161);
+
+}
+
+.header button{
+    font-size: medium;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    top: 35px;
+    right: 80px;
+    font-weight: bold;
+    background-color: rgb(246, 119, 161);
+}
+.header button:hover{
+    transform: scale(0.9);
+    background-color:rgb(194, 40, 91) ;
+}
+
+.main{
+    display: flex;
+    /* text-align: center; */
+}
+
+.first img{
+    width: 90px;
+    height: 80px;
+    margin: 10px 0 10px 120px;
+}
+
+.first input{
+    font-size: 16px;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: 10px 0 10px 40px;
+    background-color:rgb(20, 14, 64) ;
+    border: 2px solid white;
+}
+.first input::placeholder{
+    color: white;
+}
+
+.first button{
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color:rgb(246, 119, 161) ;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0 10px 40px;
+}
+.first button:hover{
+    transform: scale(0.9);
+    background-color: rgb(194, 40, 91);
+}
+
+.first input[type="checkbox"] {
+    width: 20px;
+    height: 11px;
+}
+
+.first span {
+    color: white;
+    font-size: 12px;
+}
+
+
+.first a{
+    display: inline;
+    margin: 8px;
+    font-size: 12px;
+    color: rgb(246, 119, 161);
+    text-decoration: none;
+}
+.first a:hover{
+    color: rgb(194, 40, 91);
+}
+
+.second{
+    width: 55%;
+    height: 400px;
+}
+
+.second h1 {
+    text-align: right;
+    font-size: 50px;
+    margin: 130px 0 0 100px;
+
+}
+
+.second p {
+    text-align: right;
+    font-size: 10px;
+    width: 300px;
+    margin: 0px 20px 0 195px;
+}
+
+
